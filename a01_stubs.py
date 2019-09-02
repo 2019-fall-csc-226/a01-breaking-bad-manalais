@@ -18,6 +18,8 @@
 # (Required) Task 1
 # TODO Ask user for their birth year
 user_birthday = input('What is your date of birth? ')
+print('You were born in ' + user_birthday + '!')
+print('')
 # TODO Check the year using if conditionals, and print the correct animal for that year.
 # See the a01_pets.py for examples
 if user_birthday == '1998':
@@ -50,6 +52,8 @@ elif user_birthday == '2009':
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
 friend_birthday = input("What is your friend's date of birth? ")
+print('Your friend was born in ' + friend_birthday + '!')
+print('')
 
 # TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
 if friend_birthday == '1998':
