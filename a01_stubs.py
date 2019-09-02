@@ -20,8 +20,31 @@
 user_birthday = input('What is your date of birth? ')
 # TODO Check the year using if conditionals, and print the correct animal for that year.
 # See the a01_pets.py for examples
-if user_birthday == 1988:
-    print(user_birthday + 'is a dog year')
+if user_birthday == '1988' :
+    print('You are a dragon!')
+elif user_birthday == '1989' :
+    print('You are snake!')
+elif user_birthday == '1990' :
+    print('You are a horse')
+elif user_birthday == '1991' :
+    print('You are a goat!')
+elif user_birthday == '1992' :
+    print('You are a monkey!')
+elif user_birthday == '1992' :
+    print('You are a Rooster!')
+elif user_birthday == '1994' :
+    print('You are a dog!')
+elif user_birthday == '1995' :
+    print('You are a pig!')
+elif user_birthday == '1996' :
+    print('You are a rat!')
+elif user_birthday == '1997' :
+    print('You are an ox!')
+elif user_birthday == '1998' :
+    print('You are a tiger!')
+elif user_birthday == '1999' :
+    print('You are a Rabbit!')
+
 
 
 
