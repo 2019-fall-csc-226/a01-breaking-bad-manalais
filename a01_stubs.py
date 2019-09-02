@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Dr. Scott Heggen      TODO: Change this to your name
-# Username: heggens             TODO: Change this to your username
+# Author: Dr. Scott Heggen      TODO: Sama Manalai
+# Username: heggens             TODO: manalais
 #
 # Assignment: A01
 #
@@ -20,40 +20,62 @@
 user_birthday = input('What is your date of birth? ')
 # TODO Check the year using if conditionals, and print the correct animal for that year.
 # See the a01_pets.py for examples
-if user_birthday == '1988' :
-    print('You are a dragon!')
-elif user_birthday == '1989' :
-    print('You are snake!')
-elif user_birthday == '1990' :
-    print('You are a horse')
-elif user_birthday == '1991' :
-    print('You are a goat!')
-elif user_birthday == '1992' :
-    print('You are a monkey!')
-elif user_birthday == '1992' :
-    print('You are a Rooster!')
-elif user_birthday == '1994' :
-    print('You are a dog!')
-elif user_birthday == '1995' :
-    print('You are a pig!')
-elif user_birthday == '1996' :
-    print('You are a rat!')
-elif user_birthday == '1997' :
-    print('You are an ox!')
-elif user_birthday == '1998' :
-    print('You are a tiger!')
-elif user_birthday == '1999' :
+if user_birthday == '1998':
+    print('You are a tiger')
+elif user_birthday == '1999':
     print('You are a Rabbit!')
-
-
+elif user_birthday == '2000':
+    print('You are a Dragon')
+elif user_birthday == '2001':
+    print('You are a Snake')
+elif user_birthday == '2002':
+    print('You are a Horse')
+elif user_birthday == '2003':
+    print('You are a Goat')
+elif user_birthday == '2004':
+    print('You are a Monkey')
+elif user_birthday == '2005':
+    print('You are a Rooster')
+elif user_birthday == '2006':
+    print('You are a Dog')
+elif user_birthday == '2007':
+    print('You are a Pig')
+elif user_birthday == '2008':
+    print('You are a Rat')
+elif user_birthday == '2009':
+    print('You are an Ox')
 
 
     ######################################################################
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
-
+friend_birthday = input("What is your friend's date of birth? ")
 
 # TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
+if friend_birthday == '1998':
+    print('Your friend is a tiger')
+elif friend_birthday == '1999':
+    print('Your friend is a Rabbit!')
+elif friend_birthday == '2000':
+    print('Your friend is a Dragon')
+elif friend_birthday == '2001':
+    print('Your friend is a Snake')
+elif friend_birthday == '2002':
+    print('Your friend is a Horse')
+elif friend_birthday == '2003':
+    print('Your friend is a Goat')
+elif friend_birthday == '2004':
+    print('Your friend is a Monkey')
+elif friend_birthday == '2005':
+    print('Your friend is a Rooster')
+elif friend_birthday == '2006':
+    print('Your friend is a Dog')
+elif friend_birthday == '2007':
+    print('Your friend is a Pig')
+elif friend_birthday == '2008':
+    print('Your friend is a Rat')
+elif friend_birthday == '2009':
+    print('Your friend is an Ox')
 
 
 ######################################################################
