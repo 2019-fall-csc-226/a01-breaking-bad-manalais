@@ -17,13 +17,15 @@
 ######################################################################
 # (Required) Task 1
 # TODO Ask user for their birth year
-
-
+user_birthday = input('What is your date of birth? ')
 # TODO Check the year using if conditionals, and print the correct animal for that year.
 # See the a01_pets.py for examples
+if user_birthday == 1988:
+    print(user_birthday + 'is a dog year')
 
 
-######################################################################
+
+    ######################################################################
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
 
